@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+           box-sizing: border-box; 
+
+        }
+        .container{
+                       border: 2px solid purple;
+                       width: 900px;
+                       margin: auto;
+                       background-color: aliceblue;
+        }
+        p,h3{
+            text-align: justify;
+            text-align: center;
+        }
+        .item{
+
+            /* border: 2px solid gray; */
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: red;
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+        }
+        #stationary{
+            /* float: left; */
+            clear: both;
+           
+        
+ 
+            
+            width: 100%;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+    </style> 
+        
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>Fruites</h3>
+            <p id="fruitespara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, perferendis ipsam, porro dignissimos mollitia ullam excepturi eveniet repudiandae magnam repellat ea illo repellendus amet explicabo, blanditiis tempora rem fugiat sunt?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore corrupti a impedit eligendi. Minus aspernatur sint voluptatum magni, tempore fugit a in eligendi, laudantium non hic rerum iusto suscipit iure?</p>
+        </div>  <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="statinorypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsa est vitae qui, deleniti dicta eos possimus consequuntur. Asperiores dolorum distinctio neque eius voluptates quam in placeat suscipit reiciendis quaerat.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
